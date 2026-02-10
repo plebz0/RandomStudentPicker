@@ -62,22 +62,21 @@ namespace RandomStudentGenerator.Models
             var lines = File.ReadAllLines(path);
             int i = 0;
 
-            // pomiń początkowe puste linie
+
             while (i < lines.Length && string.IsNullOrWhiteSpace(lines[i])) i++;
 
-            // spróbuj sparsować szczęśliwy numer (jeśli nie ma pozostaje 0)
+            // spróbuj sparsować szczęśliwy numer 
             if (i < lines.Length && int.TryParse(lines[i].Trim(), out var lucky))
             {
                 LuckyNumber = lucky;
                 i++;
             }
 
-            // pomiń jedną lub więcej pustych linii po numerze
             while (i < lines.Length && string.IsNullOrWhiteSpace(lines[i])) i++;
 
             while (i < lines.Length)
             {
-                // jeśli napotkamy pustą linię przejdź dalej
+              
                 if (string.IsNullOrWhiteSpace(lines[i])) { i++; continue; }
 
                 var className = lines[i++].Trim();
