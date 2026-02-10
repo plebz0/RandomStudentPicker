@@ -69,23 +69,6 @@ ContentPage > ScrollView > VerticalStackLayout {
     border-color: #547792;
 }
 
-.highlighted-student {
-    background-color: #EAE0CF;
-    text-color: #213448;
-    border-color: #547792;
-    border-width: 2;
-    font-attributes: Bold;
-    font-size: 16;
-}
-
-    .highlighted-student ^Frame {
-        background-color: rgba(148, 180, 193, 0.25);
-        border-color: #213448;
-        border-width: 3;
-        elevation: 8;
-        padding: 10;
-    }
-
 .primary {
     background-color: #213448;
     text-color: #EAE0CF;
@@ -149,3 +132,4 @@ ContentPage > ScrollView > VerticalStackLayout {
     padding: 6;
     font-size: 16;
 }
+
