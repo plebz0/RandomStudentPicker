@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RandomStudentGenerator.MainPage"
+             Title="Random Student Picker"
+             >
+    <Shell.TitleView>
+        <Grid StyleClass="title-bar" x:Name="titleBar">
+            <Label Text="Random Student Picker"
+               StyleClass="title-text"/>
+        </Grid>
+    </Shell.TitleView>
+    <ScrollView>
+        <VerticalStackLayout >
+            <HorizontalStackLayout>
+                <Button x:Name="buttonLoadFile" Text="Wczytaj plik" Clicked="OnLoadFileClicked" StyleClass="primary"/>
+                <Button x:Name="buttonSaveFile" Text="Zapisz plik" Clicked="OnFileSaveClicked" StyleClass="primary"/>
+                <Label Text="Szczęśliwy numer:" />
+                <Label x:Name="labelLuckyNumber" Text="-" />
+                <Button x:Name="buttonRollLucky" Text="Losuj szczęśliwy numerek " Clicked="OnRollLuckyNumber" StyleClass="primary"/>
+            </HorizontalStackLayout>
+            
+            <HorizontalStackLayout>
+            <Entry
+                 x:Name="newClassName"
+                 Placeholder="Nowa Klasa" />
+                <Button x:Name="addClassButton" Text="Dodaj klasę" Clicked="OnAddSchoolClass" StyleClass="primary"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Entry
+                 x:Name="newStudentName"
+                 Placeholder="Nowy uczeń" />
+                <!--Picker do wyboru klas -->
+                <HorizontalStackLayout >
+                    <Label Text="Wybierz klasę:" />
+                    
+                    <Picker
+                        x:Name="schoolClassPicker"
+                        ItemsSource="{Binding schoolList.Classes}"
+                        ItemDisplayBinding="{Binding ClassName}">
+                       
+                    </Picker>
+                </HorizontalStackLayout>
+                <Button x:Name="addStudentButton" Text="Dodaj Ucznia" Clicked="OnAddStudent" StyleClass="primary"/>
+            </HorizontalStackLayout>
+
+            <!-- wybór klasy -->
+            <HorizontalStackLayout >
+                <Label Text="Wybierz klasę:"  />
+
+                <Picker
+                    x:Name="schoolClassPickerToDraw"
+                    SelectedIndexChanged="OnClassPickerChanged"
+                    ItemsSource="{Binding schoolList.Classes}"
+                    ItemDisplayBinding="{Binding ClassName}">
+
+                </Picker>
+            </HorizontalStackLayout>
+
+            <CollectionView x:Name="selectedClassView" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame StyleClass="class-card">
+                        <!-- Ostatnio pytani -->
+                        <VerticalStackLayout>
+                                <Label Text="{Binding ClassName}"/>
+                                <Label x:Name="labelLastAsked1" 
+                                   StyleClass="last-asked-item" Text="{Binding LastAskedStudents[0], StringFormat='Ostatnio: {0}'}" />
+                            <Label x:Name="labelLastAsked2" 
+                                   StyleClass="last-asked-item" Text="{Binding LastAskedStudents[1], StringFormat='Przedodstatnio: {0}'}" />
+                            <Label  x:Name="labelLastAsked3" 
+                                    StyleClass="last-asked-item" Text="{Binding LastAskedStudents[2], StringFormat='Przed-Przedodstatnio: {0}'}" />
+                            <CollectionView ItemsSource="{Binding Students}" >
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <!-- ID ucznia -->
+                                            <Label Text="{Binding Id, StringFormat='#{0}'}" Grid.Column="0"/>
+                                            <!-- Imię ucznia -->
+                                            <Entry Text="{Binding Name}" Grid.Column="1"/>
+                                            <!-- Status ucznia -->
+                                            <Button Grid.Column="2" 
+                                                    Clicked="ToggleAttendance" BindingContext="{Binding .}">
+                                                <Button.Triggers>
+                                                    <DataTrigger TargetType="Button" Binding="{Binding IsPresent}" Value="True">
+                                                        <Setter Property="Text" Value="obecny" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Button" Binding="{Binding IsPresent}" Value="False">
+                                                        <Setter Property="Text" Value="nieobecny" /> 
+                                                    </DataTrigger>
+                                                </Button.Triggers>
+                                            </Button>
+
+                                            <Button Text="X" Grid.Column="3"  Clicked="OnDeleteStudent" BindingContext="{Binding .}" />
+
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+            <CollectionView ItemsSource="{Binding Students}" >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <!-- Imię ucznia -->
+                            <Label Text="{Binding Name}" Grid.Column="0" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Label Text="Dostępni uczniowie (filtrowani):" />
+            <CollectionView x:Name="availableStudentsView"
+                ItemsSource="{Binding AvailableStudents}"
+                ItemsLayout="VerticalList"
+                SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid  StyleClass="student-row">
+                            <Grid.Triggers>
+                                <DataTrigger TargetType="Grid"
+                                            Binding="{Binding Highlighted}"
+                                            Value="True">
+                                    <Setter Property="BackgroundColor" Value="#90CAF9" />
+                                </DataTrigger>
+                            </Grid.Triggers>
+
+                            <Label Text="{Binding Name}"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Losuj ucznia do odpowiedzi" Grid.Column="2"  
+                     StyleClass="draw-button"
+                    Clicked="OnDrawRandomStudent" BindingContext="{Binding .}"/>
+            <Label x:Name="labelDrawnStudent" Text="Wylosowany uczeń: -"  HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

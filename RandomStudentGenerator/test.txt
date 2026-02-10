@@ -1,0 +1,61 @@
+﻿1
+
+Klasa 1A
+2
+8
+9
+O
+Adam Kowalski
+O
+Julia Nowak
+O
+Michał Wiśniewski
+O
+Zuzanna Dąbrowska
+P
+Kacper Lewandowski
+O
+Natalia Zielińska
+O
+Piotr Kamiński
+O
+Aleksandra Wójcik
+O
+Mateusz Kaczmarek
+O
+Karolina Mazur
+P
+Paweł Król
+O
+Wiktoria Piotrowska
+O
+Tomasz Grabowski
+O
+Emilia Zając
+O
+Jakub Pawłowski
+P
+Hanna Michalska
+O
+Marcin Rutkowski
+P
+Lena Malinowska
+O
+Bartosz Jankowski
+O
+Oliwia Szymańska
+
+Klasa 2B
+4
+5
+6
+O
+Jan Kowalski
+O
+Kondrad Nowak
+O
+Anna Wiśniewska
+P
+Maria Kowalczyk
+O
+Piotr Zieliński

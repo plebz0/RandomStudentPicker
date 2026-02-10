@@ -1,0 +1,151 @@
+﻿^NavigationPage {
+    bar-background-color: #213448;
+    bar-text-color: #EAE0CF;
+}
+
+^ContentPage {
+    background-color: #94B4C1;
+    padding: 18;
+}
+
+ContentPage > ScrollView > VerticalStackLayout {
+    margin: 14;
+    spacing: 12;
+}
+
+^HorizontalStackLayout {
+    margin: 8 0;
+    spacing: 10;
+}
+
+.title-bar {
+    background-color: #213448;
+    padding: 14;
+    border-width: 2;
+    border-color: #547792;
+}
+
+.title-text {
+    text-color: #EAE0CF;
+    font-size: 22;
+    font-weight: Bold;
+    horizontal-options: Center;
+    vertical-options: Center;
+}
+
+.class-card {
+    background-color: #547792;
+    border-color: #213448;
+    border-width: 2;
+    padding: 16;
+    margin: 12 0;
+}
+
+.class-card > VerticalStackLayout > Label {
+    background-color: #213448;
+    text-color: #EAE0CF;
+    font-size: 18;
+    font-weight: Bold;
+    padding: 10;
+    margin: 6 0;
+    border-width: 1;
+    border-color: #94B4C1;
+}
+
+.class-card > VerticalStackLayout > .last-asked-item {
+    text-color: #EAE0CF;
+    font-size: 13;
+    font-style: Italic;
+    padding: 6 0;
+    margin: 2 0;
+}
+
+.student-row {
+    padding: 12;
+    background-color: rgba(33, 52, 72, 0.08);
+    margin: 8 0;
+    text-color: #213448;
+    border-width: 1;
+    border-color: #547792;
+}
+
+.highlighted-student {
+    background-color: #EAE0CF;
+    text-color: #213448;
+    border-color: #547792;
+    border-width: 2;
+    font-attributes: Bold;
+    font-size: 16;
+}
+
+    .highlighted-student ^Frame {
+        background-color: rgba(148, 180, 193, 0.25);
+        border-color: #213448;
+        border-width: 3;
+        elevation: 8;
+        padding: 10;
+    }
+
+.primary {
+    background-color: #213448;
+    text-color: #EAE0CF;
+    padding: 14;
+    margin: 6;
+    font-size: 16;
+    font-weight: Bold;
+    border-width: 2;
+    border-color: #547792;
+}
+
+.draw-button {
+    background-color: #547792;
+    text-color: #EAE0CF;
+    padding: 14;
+    font-size: 16;
+    margin: 6;
+    font-weight: Bold;
+    border-width: 2;
+    border-color: #213448;
+}
+
+#labelDrawnStudent {
+    background-color: rgba(148, 180, 193, 0.35);
+    text-color: #213448;
+    font-size: 18;
+    font-weight: Bold;
+    padding: 14;
+    border-width: 2;
+    border-color: #547792;
+}
+
+#selectedClassView {
+    margin: 10 0 6 0;
+}
+
+#availableStudentsView {
+    margin: 12 0;
+    padding: 8;
+    border-width: 1;
+    border-color: #547792;
+}
+
+^CollectionView {
+    margin: 10 0;
+    padding: 6;
+}
+
+^Entry, ^Picker {
+    color: #213448;
+    background-color: #EAE0CF;
+    padding: 12;
+    border-width: 2;
+    border-color: #547792;
+    margin: 6 0;
+    font-size: 15;
+}
+
+^Label {
+    text-color: #213448;
+    padding: 6;
+    font-size: 16;
+}
