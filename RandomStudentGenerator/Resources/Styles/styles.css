@@ -26,7 +26,7 @@ ContentPage > ScrollView > VerticalStackLayout {
 }
 
 .title-text {
-    text-color: #EAE0CF;
+    color: #EAE0CF;
     font-size: 22;
     font-weight: Bold;
     horizontal-options: Center;
@@ -53,7 +53,7 @@ ContentPage > ScrollView > VerticalStackLayout {
 }
 
 .class-card > VerticalStackLayout > .last-asked-item {
-    text-color: #EAE0CF;
+    color: #EAE0CF;
     font-size: 13;
     font-style: Italic;
     padding: 6 0;
@@ -69,6 +69,7 @@ ContentPage > ScrollView > VerticalStackLayout {
     border-color: #547792;
 }
 
+
 .primary {
     background-color: #213448;
     text-color: #EAE0CF;
@@ -82,7 +83,7 @@ ContentPage > ScrollView > VerticalStackLayout {
 
 .draw-button {
     background-color: #547792;
-    text-color: #EAE0CF;
+    color: #EAE0CF;
     padding: 14;
     font-size: 16;
     margin: 6;
@@ -93,7 +94,7 @@ ContentPage > ScrollView > VerticalStackLayout {
 
 #labelDrawnStudent {
     background-color: rgba(148, 180, 193, 0.35);
-    text-color: #213448;
+    color: #213448;
     font-size: 18;
     font-weight: Bold;
     padding: 14;
@@ -128,8 +129,7 @@ ContentPage > ScrollView > VerticalStackLayout {
 }
 
 ^Label {
-    text-color: #213448;
+    color: #213448;
     padding: 6;
     font-size: 16;
 }
-
