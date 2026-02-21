@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\",
+  "WorkspaceRootPath": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\viewmodels\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\viewmodels\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\downloads\\randomstudentpicker-main\\randomstudentpicker-main\\randomstudentgenerator\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\models\\schoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\models\\schoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\models\\schoollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\downloads\\randomstudentpicker-main\\randomstudentpicker-main\\randomstudentgenerator\\models\\schoollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\models\\schoollist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\downloads\\randomstudentpicker-main\\randomstudentpicker-main\\randomstudentgenerator\\models\\schoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\models\\schoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\downloads\\randomstudentpicker-main\\randomstudentpicker-main\\randomstudentgenerator\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\source\\repos\\randomstudentgenerator\\randomstudentgenerator\\resources\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\downloads\\randomstudentpicker-main\\randomstudentpicker-main\\randomstudentgenerator\\resources\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\resources\\styles\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|c:\\users\\pc\\downloads\\randomstudentpicker-main\\randomstudentpicker-main\\randomstudentgenerator\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E772C404-E083-4A49-A318-5558888081C0}|RandomStudentGenerator\\RandomStudentGenerator.csproj|solutionrelative:randomstudentgenerator\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 315,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -107,93 +103,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "test.txt",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\test.txt",
-              "RelativeDocumentMoniker": "RandomStudentGenerator\\test.txt",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\test.txt",
-              "RelativeToolTip": "RandomStudentGenerator\\test.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-10T19:48:49.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Resources\\Styles\\styles.css",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Resources\\Styles\\styles.css",
               "RelativeDocumentMoniker": "RandomStudentGenerator\\Resources\\Styles\\styles.css",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Resources\\Styles\\styles.css",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Resources\\Styles\\styles.css",
               "RelativeToolTip": "RandomStudentGenerator\\Resources\\Styles\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-10T14:44:13.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T15:12:57.253Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\ViewModels\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "RandomStudentGenerator\\ViewModels\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\ViewModels\\MainPage.xaml.cs",
-              "RelativeToolTip": "RandomStudentGenerator\\ViewModels\\MainPage.xaml.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAIwCIAAAAsAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "RandomStudentGenerator\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "RandomStudentGenerator\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswI4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:18:23.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "RandomStudentGenerator\\Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Views\\MainPage.xaml",
-              "RelativeToolTip": "RandomStudentGenerator\\Views\\MainPage.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-10T14:18:22.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "RandomStudentGenerator\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Models\\Student.cs",
-              "RelativeToolTip": "RandomStudentGenerator\\Models\\Student.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwEQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:18:19.388Z",
+              "WhenOpened": "2026-02-21T13:23:49.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SchoolList.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Models\\SchoolList.cs",
-              "RelativeDocumentMoniker": "RandomStudentGenerator\\Models\\SchoolList.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Models\\SchoolList.cs",
-              "RelativeToolTip": "RandomStudentGenerator\\Models\\SchoolList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAA/AAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "RandomStudentGenerator\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Models\\Student.cs",
+              "RelativeToolTip": "RandomStudentGenerator\\Models\\Student.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwDwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:18:18.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T13:23:44.65Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "SchoolClass.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Models\\SchoolClass.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Models\\SchoolClass.cs",
               "RelativeDocumentMoniker": "RandomStudentGenerator\\Models\\SchoolClass.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\Models\\SchoolClass.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Models\\SchoolClass.cs",
               "RelativeToolTip": "RandomStudentGenerator\\Models\\SchoolClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T14:18:17.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T13:23:43.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolList.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Models\\SchoolList.cs",
+              "RelativeDocumentMoniker": "RandomStudentGenerator\\Models\\SchoolList.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Models\\SchoolList.cs",
+              "RelativeToolTip": "RandomStudentGenerator\\Models\\SchoolList.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAzwJsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:23:42.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "RandomStudentGenerator\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\Views\\MainPage.xaml",
+              "RelativeToolTip": "RandomStudentGenerator\\Views\\MainPage.xaml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwDMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T13:23:36.342Z"
             }
           ]
         }

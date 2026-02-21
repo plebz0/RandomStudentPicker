@@ -57,58 +57,6 @@
                 </Picker>
             </HorizontalStackLayout>
 
-            <CollectionView x:Name="selectedClassView" SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame StyleClass="class-card">
-                        <!-- Ostatnio pytani -->
-                        <VerticalStackLayout>
-                                <Label Text="{Binding ClassName}"/>
-                                <Label x:Name="labelLastAsked1" 
-                                   StyleClass="last-asked-item" Text="{Binding LastAskedStudents[0], StringFormat='Ostatnio: {0}'}" />
-                            <Label x:Name="labelLastAsked2" 
-                                   StyleClass="last-asked-item" Text="{Binding LastAskedStudents[1], StringFormat='Przedodstatnio: {0}'}" />
-                            <Label  x:Name="labelLastAsked3" 
-                                    StyleClass="last-asked-item" Text="{Binding LastAskedStudents[2], StringFormat='Przed-Przedodstatnio: {0}'}" />
-                            <CollectionView ItemsSource="{Binding Students}" >
-                                <CollectionView.ItemTemplate>
-                                    <DataTemplate>
-                                        <Grid>
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="Auto" />
-                                                    <ColumnDefinition Width="*" />
-                                                    <ColumnDefinition Width="Auto" />
-                                                <ColumnDefinition Width="Auto" />
-                                            </Grid.ColumnDefinitions>
-                                            <!-- ID ucznia -->
-                                            <Label Text="{Binding Id, StringFormat='#{0}'}" Grid.Column="0"/>
-                                            <!-- Imię ucznia -->
-                                            <Entry Text="{Binding Name}" Grid.Column="1"/>
-                                            <!-- Status ucznia -->
-                                            <Button Grid.Column="2" 
-                                                    Clicked="ToggleAttendance" BindingContext="{Binding .}">
-                                                <Button.Triggers>
-                                                    <DataTrigger TargetType="Button" Binding="{Binding IsPresent}" Value="True">
-                                                        <Setter Property="Text" Value="obecny" />
-                                                    </DataTrigger>
-                                                    <DataTrigger TargetType="Button" Binding="{Binding IsPresent}" Value="False">
-                                                        <Setter Property="Text" Value="nieobecny" /> 
-                                                    </DataTrigger>
-                                                </Button.Triggers>
-                                            </Button>
-
-                                            <Button Text="X" Grid.Column="3"  Clicked="OnDeleteStudent" BindingContext="{Binding .}" />
-
-                                        </Grid>
-                                    </DataTemplate>
-                                </CollectionView.ItemTemplate>
-                            </CollectionView>
-                        </VerticalStackLayout>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
 
             <CollectionView ItemsSource="{Binding Students}" >
                 <CollectionView.ItemTemplate>
@@ -146,10 +94,72 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="Losuj ucznia do odpowiedzi" Grid.Column="2"  
+            <Button Text="Brak uczniów do wylosowania" Grid.Column="2"  
                      StyleClass="draw-button"
-                    Clicked="OnDrawRandomStudent" BindingContext="{Binding .}"/>
+                    Clicked="OnDrawRandomStudent" BindingContext="{Binding .}"
+                    x:Name="drawButton"/>
             <Label x:Name="labelDrawnStudent" Text="Wylosowany uczeń: -"  HorizontalOptions="Center"/>
+
+
+
+
+
+
+
+
+
+
+                <CollectionView x:Name="selectedClassView" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame StyleClass="class-card">
+                            <!-- Ostatnio pytani -->
+                            <VerticalStackLayout>
+                                    <Label Text="{Binding ClassName}"/>
+                                    <Label x:Name="labelLastAsked1" 
+                                    StyleClass="last-asked-item" Text="{Binding LastAskedStudents[0], StringFormat='Ostatnio: {0}'}" />
+                                <Label x:Name="labelLastAsked2" 
+                                    StyleClass="last-asked-item" Text="{Binding LastAskedStudents[1], StringFormat='Przedodstatnio: {0}'}" />
+                                <Label  x:Name="labelLastAsked3" 
+                                        StyleClass="last-asked-item" Text="{Binding LastAskedStudents[2], StringFormat='Przed-Przedodstatnio: {0}'}" />
+                                <CollectionView ItemsSource="{Binding Students}" >
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <!-- ID ucznia -->
+                                                <Label Text="{Binding Id, StringFormat='#{0}'}" Grid.Column="0"/>
+                                                <!-- Imię ucznia -->
+                                                <Entry Text="{Binding Name}" Grid.Column="1"/>
+                                                <!-- Status ucznia -->
+                                                <Button Grid.Column="2" 
+                                                        Clicked="ToggleAttendance" BindingContext="{Binding .}">
+                                                    <Button.Triggers>
+                                                        <DataTrigger TargetType="Button" Binding="{Binding IsPresent}" Value="True">
+                                                            <Setter Property="Text" Value="obecny" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="Button" Binding="{Binding IsPresent}" Value="False">
+                                                            <Setter Property="Text" Value="nieobecny" /> 
+                                                        </DataTrigger>
+                                                    </Button.Triggers>
+                                                </Button>
+
+                                                <Button Text="X" Grid.Column="3"  Clicked="OnDeleteStudent" BindingContext="{Binding .}" />
+
+                                            </Grid>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

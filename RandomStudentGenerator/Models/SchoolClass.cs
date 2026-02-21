@@ -53,7 +53,6 @@ namespace RandomStudentGenerator.Models
             _lastAskedStudents[1] = _lastAskedStudents[0];
             _lastAskedStudents[0] = studentIndex;
             
-            
             OnPropertyChanged(nameof(LastAskedStudents));
         }
 

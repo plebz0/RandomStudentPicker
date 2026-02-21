@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\RandomStudentGenerator.csproj": {}
+    "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\RandomStudentGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\RandomStudentGenerator.csproj": {
+    "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\RandomStudentGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\RandomStudentGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\RandomStudentGenerator.csproj",
         "projectName": "RandomStudentGenerator",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\RandomStudentGenerator.csproj",
+        "projectPath": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\RandomStudentGenerator.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\RandomStudentGenerator\\RandomStudentGenerator\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Downloads\\RandomStudentPicker-main\\RandomStudentPicker-main\\RandomStudentGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

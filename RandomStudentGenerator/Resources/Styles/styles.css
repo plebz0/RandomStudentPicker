@@ -1,4 +1,4 @@
-﻿^NavigationPage {
+﻿NavigationPage {
     bar-background-color: #213448;
     bar-text-color: #EAE0CF;
 }
@@ -113,7 +113,7 @@ ContentPage > ScrollView > VerticalStackLayout {
     border-color: #547792;
 }
 
-^CollectionView {
+CollectionView {
     margin: 10 0;
     padding: 6;
 }
@@ -128,7 +128,7 @@ ContentPage > ScrollView > VerticalStackLayout {
     font-size: 15;
 }
 
-^Label {
+Label {
     color: #213448;
     padding: 6;
     font-size: 16;
