@@ -13,7 +13,7 @@ ContentPage > ScrollView > VerticalStackLayout {
     spacing: 12;
 }
 
-^HorizontalStackLayout {
+HorizontalStackLayout {
     margin: 8 0;
     spacing: 10;
 }
@@ -64,7 +64,7 @@ ContentPage > ScrollView > VerticalStackLayout {
     padding: 12;
     background-color: rgba(33, 52, 72, 0.08);
     margin: 8 0;
-    text-color: #213448;
+    color: #213448;
     border-width: 1;
     border-color: #547792;
 }
